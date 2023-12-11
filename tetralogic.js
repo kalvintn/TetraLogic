@@ -1,7 +1,7 @@
 /* CUSTOM GAME DATA */
 const JSON_OBJ = {
     easy : [
-        { name: "First Four Lost Numbers", items: "4, 8, 15, 16" },
+        { name: "First Four 'Lost' Numbers", items: "4, 8, 15, 16" },
         { name: "Parts of a Book", items: "Spine, Cover, Author, Index" },
         { name: "Literary Devices", items: "Metaphor, Simile, Alliteration, Hyperbole" },
         { name: "Types of Angles", items: "Acute, Right, Obtuse, Straight" },
@@ -26,7 +26,19 @@ const JSON_OBJ = {
         { name: "Countries With One Neighbor", items: "South Korea, The Gambia, Haiti, Timor-Leste" },
         { name: "Apple _____", items: "Cider, Juice, Watch, Pie" },
         { name: "Weather Events", items: "Tornado, Hailstorm, Hurricane, Blizzard" },
-        { name: 'Numbers', items: "1, 2, 3, 4" }  
+        { name: "Famous Mononyms", items: "Adele, Selena, Cher, Prince" },
+        { name: "Santa's Reindeer", items: "Dancer, Cupid, Comet, Dasher" },
+        { name: "BLT Ingredients", items: "Bacon, Lettuce, Tomato, Bread" },
+        { name: "Livestock", items: "Horse, Sheep, Chicken, Pig" },
+        { name: "Country Capitals", items: "Dhaka, Kabul, Canberra, Algiers" },
+        { name: "Eras in Time", items: "Paleozoic, Mesozoic, Cenozoic, Precambrian" },
+        { name: "More About Trees", items: "Coniferous, Deciduous, Evergreen, Broadleaf" },
+        { name: "Types of Poetry", items: "Limerick, Haiku, Sonnet, Villanelle" },
+        { name: "Western Zodiac", items: "Libra, Virgo, Scorpio, Capricorn" },
+        { name: "Neurotransmitters", items: "Dopamine, Serotonin, Epinephrine, Endorphin" },
+        { name: "Moon Phases", items: "Waxing, Waning, Crescent, Gibbous" },
+        { name: "Great Philosophers", items: "Aristotle, Plato, Cicero, Confucius" },
+        { name: "Temperature Scales", items: "Celsius, Fahrenheit, Kelvin, Rankine" },
     ],
     medium : [
         { name: "The First Four Biblical Gospels", items: "Matthew, Mark, John, Luke" },
@@ -54,6 +66,18 @@ const JSON_OBJ = {
         { name: "Dogs by Breed Group", items: "Sporting, Hound, Working, Terrier" },
         { name: "Compound Words", items: "Toothbrush, Runway, Starfish, Sunflower" },
         { name: "Citrus Fruits", items: "Grapefruit, Yuzu, Kumquat, Citron" },
+        { name: "Tea Types", items: "Black, Herbal, Green, Ginger"},
+        { name: "Knighthoods/Damehoods", items: "Judi Dench, Helen Mirren, Michael Caine, Ian McKellen" },
+        { name: "Mountain Ranges", items: "Cascade, Ural, Alaska, Andes" },
+        { name: "Email Options", items: "Forward, Reply, CC, BCC" },
+        { name: "Nothing", items: "Zip, Nill, None, Nada" },
+        { name: "SI Base Units", items: "Ampere, Kelvin, Mole, Candela" },
+        { name: "Spices", items: "Saffron, Turmeric, Paprika, Cumin" },
+        { name: "Sledding", items: "Monobob, Luge, Bobsled, Skeleon" },
+        { name: "Minerals", items: "Silica, Quartz, Feldspar, Mica" },
+        { name: "The Human Body", items: "Hemoglobin, Myoglobin, Collagen, Keratin" },
+        { name: "Forms of Energy", items: "Kinetic, Potential, Thermal, Chemical" },
+        { name: "Forms of Storytelling", items: "Fable, Allegory, Parable, Myth" },
     ],
     hard : [
         { name: "Bands with Three Members", items: "Nirvana, Green Day, Blink-182, Boygenius" },
@@ -81,7 +105,17 @@ const JSON_OBJ = {
         { name: "Music Festivals", items: "Coachella, Glastonbury, Lollapalooza, Bonnaroo" },
         { name: "Common Phobias", items: "Heights, Spiders, Crowds, Germs" },
         { name: "Dog Commands", items: "Sit, Stand, Down, Come" },
-
+        { name: "Wives of Henry VIII", items: "Aragon, Parr, Seymour, Boleyn" },
+        { name: "Music Terms", items: "Arpeggio, Crescendo, Staccato, Legato" },
+        { name: "Ocean Zones", items: "Benthic, Pelagic, Abyssal, Hadal" },
+        { name: "Rocks", items: "Basalt, Granite, Marble, Slate" },
+        { name: "Island Geography", items: "Archipelago, Atoll, Cay, Islet" },
+        { name: "Brain-Related", items: "Medulla, Thalamus, Pons, Cerebellum" },
+        { name: "Calendars", items: "Julian, Gregorian, Hebrew, Islamic" },
+        { name: "Artificial Sweeteners", items: "Aspartame, Saccharin, Sucralose, Stevia" },
+        { name: "Heat Transfer Related", items: "Conduction, Convection, Radiation, Insulation" },
+        { name: "Ions", items: "Cation, Anion, Isotope, Ionization" },
+        { name: "Gone Caving", items: "Stalactite, Stalagmite, Column, Flowstone" },
     ],
     expert : [
         { name: "Finger-Related", items: "Good Job, That Way, Care for Tea?, I Do" },
@@ -108,7 +142,11 @@ const JSON_OBJ = {
         { name: "Acronyms", items: "Laser, Radar, Scuba, Sonar" },
         { name: "Military Use Origins", items: "Aviators, Jeep, Internet, Duct Tape" },
         { name: "Brave", items: "Heroic, Daring, Audacious, Gallant" },
-        { name: "Currency", items: "Note, Bill, Buck, Dough"}
+        { name: "Currency", items: "Note, Bill, Buck, Dough"},
+        { name: "Thanks Greece", items: "Theater, Olympics, Watermills, Levers"},
+        { name: "Galaxy Names", items: "Andromeda, Triangulum, Whirlpool, Pinwheel" },
+        { name: "Constellations", items: "Auriga, Draco, Pegasus, Hydra" },
+        { name: "Tide-Related", items: "Neap, Spring, Ebb, Flood" },
     ],
 }
 
@@ -143,55 +181,57 @@ let message = '';               // message for: correct answer, win state, lose 
 
 /* METHODS */
 
-
-
-
-// Clears previous values to allow multiple games.
-// @param none
-// @retrn none
-function clearFields(){
-    // Clear previous values
-    keysArray = [];
-    itemsArray = [];
-    itemsArray_r = [];
-
-    // Text display reset
+/** Clears all global variables for replayability.
+ *  param   none
+ *  retrn   none
+ */
+function globalReset(){
+    // Reset text display
     lives = 4;
     lives_string.textContent = "Lives left: " + lives;
     outcome_string.textContent = "Welcome!";
 
-    // Reset correct amount
+    // Clear arrays
+    keysArray = [];
+    itemsArray = [];
+    itemsArray_r = [];
+    selected = [];
     correct.length = 0;
 
-    // Clear previous data in game_area
+
+    // Clear game board
     game_area.innerHTML = '';
 
-    // Reset button functionality
+    // Restore button clickability
     buttons_list.childNodes.forEach(button => {
         button.disabled = false;
+    });
+
+    // Deselect all 'selected' buttons
+    game_area.childNodes.forEach(child => {
+        child.classList.remove('selected');
     });
 }
 
 
 
 
-// Get a random question set of each difficulty. Normalize results into array.
-// @param none
-// @retrn none
+/** Choose 4 random group names with their items.
+ *  param   none
+ *  retrn   none
+ */
 function initializeKeys(){
-
-    // Randomly select 4 difficulies * 4 items = 16 to fill itemsArray[]
     for(let difficultyKey in JSON_OBJ){
-        // Grab each difficulty
+        // Grab each difficulty name
         let difficulty = JSON_OBJ[difficultyKey];
 
-        // Generate Random Value
+        // Generate random number of difficulty set length
         let random = Math.floor(Math.random() * difficulty.length);
 
-        // Add category and items to keysArray and itemsArray
+        // Choose 4 random question "name"
         keysArray.push(difficulty[random].name);
 
-        // 'items' requires splitting along comma-separated list then insert individually
+        // Parse comma-separated 'items' into itemsArray[]
         let items = difficulty[random].items.split(', ');
         items.forEach(item => {
             itemsArray.push(item);
@@ -199,35 +239,34 @@ function initializeKeys(){
     }
 }
 
-// Randomly sort the items so that they can be displayed
+/** Display items in random order && manage shuffling items
+ *  param   none
+ *  retrn   none
+ */
 function randomizeItems(){
-    // Temp copy items array
+    // Temp copy the itemsArray[]
     itemsArray_r = [...itemsArray];
 
-    // Shuffle
+    // Shuffle function
     for (let i = itemsArray_r.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [itemsArray_r[i], itemsArray_r[j]] = [itemsArray_r[j], itemsArray_r[i]];
     }
 
-    // Clear previous data in game_area
+    // Clear previous data in game area
     game_area.innerHTML = '';
 
-    // Initialize Array
+    // Initialize buttons with difficulty attributes
     for(let i = 0; i < itemsArray_r.length; i++){
 
         // Dynamically generate buttons
         const button = document.createElement('button');
         button.textContent = itemsArray_r[i];
         button.classList.add(`item`);
-        button.classList.add(`item${i}`);
 
-        // Calculate the difficulty class index based on the position in itemsArray
+        // Note : difficulty class calculated by index in itemsArray[]
         let difficultyIndex = Math.floor(itemsArray.indexOf(itemsArray_r[i]) / 4);
-
-        // Assign the appropriate difficulty class based on the calculated index
         let difficultyClass = '';
-
         switch (difficultyIndex) {
         case 0:
             difficultyClass = 'easy';
@@ -253,7 +292,7 @@ function randomizeItems(){
         game_area.appendChild(button);
     }
     
-    // Ensure that selected[] still appears after shuffling
+    // Extra consideration: ensure that selected[] still appears post-shuffling
     for(let i = 0; i < selected.length; i++){
         game_area.childNodes.forEach(child => {
             if(child.textContent == selected[i]){
@@ -262,50 +301,44 @@ function randomizeItems(){
         });
     }
 
-    // Ensure that selected[] still appears after shuffling
-    // Ensure that colors[] remain the same after shuffling
+    // Extra consideration: ensure item colors[] still appear post-shuffling
     game_area.childNodes.forEach(child => {
         correct.forEach(correctClass => {
+            // Properties of correctly guessed "done" items
             if (child.classList.contains(correctClass)) {
-
-                // Remove functionality
+                // "Done" buttons are not selected/higlighted
                 child.classList.remove('selected');
+
+                // "Done" buttons cannot be clicked
                 child.disabled = true;
     
-                // Get difficulty name
+                // "Done" buttons have an associated background color
                 const difficulty = correctClass;
-    
-                // Set the background color based on difficulty name
                 child.style.backgroundColor = `var(--color-${difficulty})`;
             }
         });
     });    
 }
 
-// BUTTON CLICK EVENTS
-// ...
-// ...
+
+
+
+
+/** Handle click events for each item.
+ *  param   none
+ *  retrn   none
+ */
 function handleClick(event){
     // Get the element that triggered this event
     let element = event.target;
 
-    // Always toggle -> NO
-    // Toggle if: A decrease decrements selected[] to below 4, an increase remains below four
-    // Else, do not toggle
-
-    // Cases : Toggle an element that isn't there, list is not full -> .toggle & push
-    // Toggle an element that isn't there, list is full -> no toggle, no push
-    // Toggle an element that is there, list is not full -> .toggle, filter out
-    // Toggle an element that is there, list is full -> -> .toggle, filter out
-
     
-
-    // Check: You can only select at most 4 elements
+    // Note: you cannot select more than 4 elements
     if(selected.length < 4 || selected.includes(element.textContent)){
-
         // Toggle "selected" class style
         element.classList.toggle('selected');
 
+        // Dual functionality: toggle selected on/off
         if (!selected.includes(element.textContent)) {
             // Push to selected[] if it is not there yet
             selected.push(element.textContent);
@@ -315,70 +348,38 @@ function handleClick(event){
         }
     }
 
-    // Test
+    // Test: here you view what is currently selected[]
     console.log('selected: ' + selected);
 }
 
 
 
 
-
-// FUNCTIONALITY BUTTONS
-// ...
-// ...
-
-
-
-// Shuffle items (randomize position in board)
-function shuffle() {
-    randomizeItems();
-}
-
-
-// Replayability
-function newGame(){
-    clearFields();
-    initializeKeys();
-    randomizeItems();
-}
-
-// Clear the "selected" items array
-function clearSelection(){
-    // Get the items
-    let items = game_area.querySelectorAll('.item');
-
-    items.forEach(item => {
-        // All HTML items will now be unselected
-        item.classList.remove('selected');
-
-        // Clear selected[] array
-        selected.length = 0;
-    });
-
-    console.log('selected: ' + selected);
-}
-
-// Clear 
+/** Global play game && replayability.
+ *  param   none
+ *  retrn   none
+ */
 function submit(){
-    let valid = true; // Global Variable
+    // Are the selected[] elements a valid solution?
+    let valid = true;
 
-    // User must have selected four items
+    // User must select four items
     if(selected.length == 4) {
         // Search items[] array to find 'parent difficulty'
         // A valid selected[] array means all items in selected[] belong to the same difficulty && same group
-        
         // The logic: itemsArray[] is ordered and should have all 4 groups of 4 next to each other
 
+        // Find the index where the difficulty starts (should be a factor of 4)
         let base_difficulty_index;
         for(let i = 0; i < itemsArray.length; i++){
-            // Find the index where the difficulty starts (should be a factor of 4)
             if(selected[0] === itemsArray[i]) {
                 base_difficulty_index = i - (i % 4);
             }
-            // console.log(base_difficulty_index);
         }
 
-        // Search in itemsArray[] to see if selected[] elements are consecutive
+        // Search in itemsArray[] to see if selected[] elements are CONSECUTIVE
+        // "valid" == true The four selected responses belong to the same group.  
+        // "valid" == false The four selected responses DO NOT belong to the same group.
         for(let i = 0; i < selected.length; i++){
             // Get itemsArray[] index
             let current_index = base_difficulty_index + i;
@@ -398,15 +399,13 @@ function submit(){
             if(!valid){
                 break;
             }
-        }
+        }      
 
-      // Formulate output based on "valid" variable
-      // "valid" == true The four selected responses belong to the same group.  
-      // "valid" == false The four selected responses DO NOT belong to the same group.
-
-      // Valid selected[] 4 answers
+      // Behaviors for valid answers
       if(valid){
-        // Calculate the color to change boxes to
+        // Calculate the colors to change boxes to:     diff_color
+        // Calculate message to display on correct:     message_color
+        // Calculate the difficulties solved for:       correct[]
         let diff_color;
         let message_color;
         switch(base_difficulty_index) {
@@ -432,19 +431,19 @@ function submit(){
                 break;
         }
 
-        console.log("new color: " + diff_color);
 
-        // Do the color change
-        // Get items
+        // PERFORM THE COLOR CHANGE
+
+        // Grab all items
         let items = game_area.querySelectorAll('.item');
 
-        // Ensure that selected[] still appears after shuffling
-        // Ensure that correct[] still appears after shuffling
+        // Ensures that selected[] still appears after shuffling
+        // Ensures that correct[] still appears after shuffling
         // Check items[] to change currently selected[] to the appropriate color
-
-        // correct[correct.length - 1] to check WHAT WHAT JUST ADDED
+        // Keynote: correct[correct.length - 1] to check what was JUST added
         items.forEach(child => {
             for(let i = 0; i < correct.length; i++){
+                // Traits of completed "done" buttons
                 if(child.classList.contains(correct[i])){
                     // Remove 'selected' property
                     child.classList.remove('selected');
@@ -452,17 +451,17 @@ function submit(){
                     // Disable button functionality
                     child.disabled = true;
 
-                    console.log(correct[i]);
-
                     // Only add "new" color changes for each incoming difficulty
                     if(selected.includes(child.textContent)) {
-                        // Set the appropriate background color for the difficulty
                         child.style.backgroundColor = `var(${diff_color})`;
                     }
                 }
             }
         });
-        // Clear selected[] array
+
+        // BEHAVIORS AFTER CORRECT ANSWER
+
+        // Clear selected[] array post-guess
         selected.length = 0;
         
         // Set the message output (for correct answers)
@@ -473,18 +472,11 @@ function submit(){
         if(correct.length == 4) {
             endgame("WIN");
         }
-
-
-
-
-      } // end valid-answer behaviors
-
-      // Incorrectly selected[] 4 answers
+      } // -end- valid answer behaviors
+      // State: the 4 guesses are WRONG
       else {
-        // Grab items
+        // A wrong guess deselects all items
         let items = game_area.querySelectorAll('.item');
-
-        // Clear selected properties
         items.forEach(item => {
             if(selected.includes(item.textContent)){
                 item.classList.remove('selected');
@@ -494,50 +486,80 @@ function submit(){
         // Clear selected[] array
         selected.length = 0;
 
-        console.log(selected);
-
         // Decrement Lives
         bang();
-
       }
-
-
-
-    } // end four-selected behaviors
-
-    // Error: items selected !== 4
+    } // -end- four selected
+    // ERROR: 4 items not selected[]
     else {
         alert("Select exactly 4 items to submit. Thank you!");
-    }
-} // end submit behaviors
+    }  
+} // -end- submit behaviors
 
 
 
 
-// Decrement lives count, handle end-game func
+/** Decrement lives && checks endgame functionality.
+ *  param   none
+ *  retrn   none
+ */
 function bang(){
     // Decrement lives
     lives = lives - 1;
     lives_string.textContent = "Lives left: " + lives;
 
-    // 0 lives = Game over state.
+    // Zero lives results in an end-game state.
     if(lives == 0) {
-        // Run end-game behavior with a loss
         endgame("LOSS");
     }
 }
 
 
-// Compute Endgame
-// @param state - "WIN" or "LOSS"
+
+
+/** Functionality for shuffle button.
+ *  param   none
+ *  retrn   none
+ */
+function shuffle() {
+    randomizeItems();
+}
+
+
+
+
+/** Functionality for 'deselect all' button
+ *  param   none
+ *  retrn   none
+ */
+function clearSelection(){
+    // Get all items
+    let items = game_area.querySelectorAll('.item');
+
+    items.forEach(item => {
+        // Remove 'selected' class from all items
+        item.classList.remove('selected');
+
+        // Clear selected[] array
+        selected.length = 0;
+    });
+}
+
+
+
+
+/** Calculate endgame output. 
+ *  param   state - "WIN" or "LOSS"
+ *  retrn   none
+ */
 function endgame(state){
     // In either case, we must disable all buttons except 'New Game'
     buttons_list.childNodes.forEach(button => {
         button.disabled = true;
     });
 
+    // Determine final output message
     document.querySelector('.new-game').disabled = false;
-
     if(state === "WIN") {
         message += '. Congratulations! You\'ve won!';
     }
@@ -550,13 +572,21 @@ function endgame(state){
 }
 
 
-// Let's Go
+
+/** Global play game && replayability.
+ *  param   none
+ *  retrn   none
+ */
+function newGame(){
+    globalReset();
+    initializeKeys();
+    randomizeItems();
+}
+
+
+
+// Let's Go 
 newGame();
-
-
-
-
-
 
 
 
@@ -573,7 +603,7 @@ newGame();
 // Manual modal controls since "data-target" and "data-toggle" have been deprecated :(
 
 
-// Open modal
+// OPEN modal control
 document.getElementById('howToPlayBtn').addEventListener('click', function() {
     var myModal = new bootstrap.Modal(document.getElementById('howToPlayModal'));
     myModal.show();
@@ -583,7 +613,7 @@ document.getElementById('learnMoreBtn').addEventListener('click', function() {
     myModal.show();
 });
 
-// Close modal
+// CLOSE modal control
 var closeButtons = document.querySelectorAll('.btn-close-play[data-dismiss="modal"]');
 closeButtons.forEach(function(btn) {
     btn.addEventListener('click', function() {
