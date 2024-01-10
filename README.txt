@@ -4,7 +4,6 @@ Project created by Kalvin Nguyen, Pursuant B.A. Computer Science @ UGA.
 Last updated: Dec 10, 2023.
 
 
-
 ## USAGE
 
 All materials are free for commercial/personal use, distribution, and reproduction.
